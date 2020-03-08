@@ -41,7 +41,7 @@ class Model{
     }
 
     //creating instances of the called class
-    private static function instanceArray($db_results){
+    protected static function instanceArray($db_results){
         $data = [];
         $child = get_called_class();
 
